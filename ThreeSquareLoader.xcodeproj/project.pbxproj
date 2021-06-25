@@ -11,6 +11,7 @@
 		02CB74FB26859900003C5DCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB74FA26859900003C5DCA /* ContentView.swift */; };
 		02CB74FD26859901003C5DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CB74FC26859901003C5DCA /* Assets.xcassets */; };
 		02CB750026859901003C5DCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CB74FF26859901003C5DCA /* Preview Assets.xcassets */; };
+		02CB7508268599A0003C5DCA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB7507268599A0003C5DCA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02CB74FA26859900003C5DCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02CB74FC26859901003C5DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02CB74FF26859901003C5DCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02CB7507268599A0003C5DCA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		02CB74F726859900003C5DCA /* ThreeSquareLoader */ = {
 			isa = PBXGroup;
 			children = (
+				02CB75062685998A003C5DCA /* view */,
 				02CB74F826859900003C5DCA /* ThreeSquareLoaderApp.swift */,
 				02CB74FA26859900003C5DCA /* ContentView.swift */,
 				02CB74FC26859901003C5DCA /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				02CB74FF26859901003C5DCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02CB75062685998A003C5DCA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				02CB7507268599A0003C5DCA /* Home.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02CB74FB26859900003C5DCA /* ContentView.swift in Sources */,
+				02CB7508268599A0003C5DCA /* Home.swift in Sources */,
 				02CB74F926859900003C5DCA /* ThreeSquareLoaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
